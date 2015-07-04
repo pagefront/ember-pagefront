@@ -14,7 +14,7 @@ module.exports = {
   normalizeEntityName: function() {},
 
   afterInstall: function() {
-    appendFileSync(GITIGNORE, PAGEFRONT_CONFIG);
+    appendFileSync(GITIGNORE, NEW_LINE + PAGEFRONT_CONFIG);
     this.ui.writeLine(MESSAGE);
   },
 
