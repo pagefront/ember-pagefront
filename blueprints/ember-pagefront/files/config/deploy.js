@@ -1,12 +1,12 @@
 module.exports = {
   production: {
     store: {
-      type: 'pagefront-index',
+      type: 'pagefront',
       key: process.env.PAGEFRONT_KEY,
       app: '<%= app %>'
     },
     assets: {
-      type: 'pagefront-assets',
+      type: 'pagefront',
       key: process.env.PAGEFRONT_KEY,
       app: '<%= app %>'
     }

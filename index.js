@@ -9,10 +9,10 @@ module.exports = {
   type: 'ember-deploy-addon',
   adapters: {
     index: {
-      'pagefront-index': IndexAdapter
+      pagefront: IndexAdapter
     },
     assets: {
-      'pagefront-assets': AssetsAdapter
+      pagefront: AssetsAdapter
     }
   }
 };
