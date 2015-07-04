@@ -13,6 +13,10 @@ var PAGEFRONT_CONFIG = '.pagefrontrc';
 module.exports = {
   normalizeEntityName: function() {},
 
+  beforeInstall: function() {
+    return this.addPackageToProject('ember-cli-deploy');
+  },
+
   afterInstall: function() {
     appendFileSync(GITIGNORE, NEW_LINE + PAGEFRONT_CONFIG);
     this.ui.writeLine(MESSAGE);
