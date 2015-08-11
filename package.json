@@ -35,7 +35,9 @@
     "ember-try": "0.0.6"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-cli-deploy-plugin",
+    "ember-cli-deploy-plugin-pack"
   ],
   "dependencies": {
     "chalk": "^1.1.0",
