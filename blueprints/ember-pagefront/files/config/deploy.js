@@ -1,14 +1,8 @@
-module.exports = {
-  production: {
-    store: {
-      type: 'pagefront',
-      key: process.env.PAGEFRONT_KEY,
-      app: '<%= app %>'
-    },
-    assets: {
-      type: 'pagefront',
-      key: process.env.PAGEFRONT_KEY,
-      app: '<%= app %>'
+module.exports = function(deployTarget) {  
+  return {
+    pagefront: {
+      app: '<%= app %>',
+      key: process.env.PAGEFRONT_KEY
     }
-  }
+  };
 };
