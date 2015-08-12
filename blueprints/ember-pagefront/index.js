@@ -4,7 +4,7 @@ var appendFileSync = require('fs').appendFileSync;
 var green = chalk.green;
 var white = chalk.white;
 
-var DEPLOY = 'ember deploy -e production';
+var DEPLOY = 'ember deploy';
 var NEW_LINE = '\n';
 var MESSAGE = NEW_LINE + green('Success! Now deploy your app: ') + white(DEPLOY) + NEW_LINE;
 var GITIGNORE = '.gitignore';
@@ -14,7 +14,7 @@ module.exports = {
   normalizeEntityName: function() {},
 
   beforeInstall: function() {
-    return this.addPackageToProject('ember-cli-deploy');
+    return this.addPackageToProject('ember-cli-deploy', '0.5.0-beta.1');
   },
 
   afterInstall: function() {
