@@ -23,11 +23,9 @@ module.exports = {
   },
 
   locals: function(options) {
-    var args = options.args;
-
     return {
-      app: args[1],
-      key: args[2]
+      app: options.app,
+      key: options.key
     };
   }
 }
