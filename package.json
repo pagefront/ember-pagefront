@@ -40,11 +40,11 @@
   ],
   "dependencies": {
     "chalk": "^1.1.1",
-    "ember-cli-deploy-build": "zapnito/ember-cli-deploy-build#4092f0aba15d7706ad44dfaeac6f574c6b19511c",
+    "ember-cli-deploy-build": "ember-cli-deploy/ember-cli-deploy-build#b50ccfe923c2fe121c4d3ea9fb117c61d2e6ca6e",
     "ember-cli-deploy-display-revisions": "0.0.1",
-    "ember-cli-deploy-gzip": "0.1.0-beta.1",
-    "ember-cli-deploy-manifest": "lukemelia/ember-cli-deploy-manifest#ca346b136001f98e04a5a135dd87157f1b297c81",
-    "ember-cli-deploy-pagefront": "pagefront/ember-cli-deploy-pagefront"
+    "ember-cli-deploy-gzip": "ember-cli-deploy/ember-cli-deploy-gzip#d71fb8f746716e4e7f32de97c4b34046b361e5d7",
+    "ember-cli-deploy-manifest": "ember-cli-deploy/ember-cli-deploy-manifest#4cb75e92e09251c677acdb0930bd23f9905def17",
+    "ember-cli-deploy-pagefront": "pagefront/ember-cli-deploy-pagefront#f0853259c4428769545f4ed2ec4cd29d43cc4949"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
