@@ -15,8 +15,7 @@ This README outlines the details of collaborating on this Ember addon.
 
 ## Running Tests
 
-* `ember test`
-* `ember test --server`
+* `npm test`
 
 ## Building
 
