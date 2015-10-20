@@ -2,9 +2,9 @@
 
 ## Installation
 
-1) Create a [Pagefront Account](https://www.pagefronthq.com/)
-2) Add an app in the Pagefront dashboard to represent your application deployment
-3) Copy the installation command from the dashboard an execute it from the command line. Example:
+1. Create a [Pagefront Account](https://www.pagefronthq.com/)
+2. Add an app in the Pagefront dashboard to represent your application deployment
+3. Copy the installation command from the dashboard an execute it from the command line. Example:
 `ember install ember-pagefront --app=foo --key=1234foobar`
 
 That's it! Now you will be able to deploy your app to Pagefront with ease.
