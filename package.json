@@ -15,7 +15,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "Jason Kriss <jasonkriss@gmail.com> (https://jasonkriss.com/)",
+  "author": "Jason Kriss <jasonkriss@gmail.com> (http://jasonkriss.com/)",
   "license": "MIT",
   "devDependencies": {
     "ember-cli": "1.13.8",
