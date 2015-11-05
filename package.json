@@ -32,6 +32,7 @@
     "ember-cli-deploy-display-revisions": "0.1.0",
     "ember-cli-deploy-gzip": "0.1.0",
     "ember-cli-deploy-manifest": "0.1.0",
+    "ember-cli-deploy-revision-data": "0.1.0",
     "ember-cli-deploy-pagefront": "0.1.0"
   },
   "ember-addon": {
