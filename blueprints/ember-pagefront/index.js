@@ -8,7 +8,7 @@ var DEPLOY = 'ember deploy';
 var NEW_LINE = '\n';
 var MESSAGE = NEW_LINE + green('Success! Now deploy your app: ') + white(DEPLOY) + NEW_LINE;
 var GITIGNORE = '.gitignore';
-var PAGEFRONT_CONFIG = '.pagefrontrc';
+var DOT_ENV_FILE = '.env.deploy.production';
 
 module.exports = {
   normalizeEntityName: function() {},
@@ -21,7 +21,7 @@ module.exports = {
   },
 
   afterInstall: function() {
-    appendFileSync(GITIGNORE, NEW_LINE + PAGEFRONT_CONFIG);
+    appendFileSync(GITIGNORE, NEW_LINE + DOT_ENV_FILE);
     this.ui.writeLine(MESSAGE);
   },
 
