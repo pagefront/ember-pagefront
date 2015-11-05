@@ -14,7 +14,10 @@ module.exports = {
   normalizeEntityName: function() {},
 
   beforeInstall: function() {
-    return this.addPackageToProject('ember-cli-deploy', '0.5.0-beta.1');
+    return this.addAddonToProject({
+      name: 'ember-cli-deploy',
+      target: '0.5.0'
+    });
   },
 
   afterInstall: function() {
