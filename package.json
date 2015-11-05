@@ -30,7 +30,7 @@
     "chalk": "^1.1.1",
     "ember-cli-deploy-build": "0.1.0",
     "ember-cli-deploy-display-revisions": "0.1.0",
-    "ember-cli-deploy-gzip": "ember-cli-deploy/ember-cli-deploy-gzip#ad0a283d4afd97bf00eb909234ec1cf1993d6568",
+    "ember-cli-deploy-gzip": "0.1.0",
     "ember-cli-deploy-manifest": "0.1.0",
     "ember-cli-deploy-pagefront": "0.1.0"
   },
