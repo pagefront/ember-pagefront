@@ -1,6 +1,6 @@
 {
   "name": "ember-pagefront",
-  "version": "0.7.2",
+  "version": "0.8.0",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
