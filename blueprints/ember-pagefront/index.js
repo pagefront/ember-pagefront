@@ -8,7 +8,7 @@ var DEPLOY = 'ember deploy';
 var NEW_LINE = '\n';
 var MESSAGE = NEW_LINE + green('Success! Now deploy your app: ') + white(DEPLOY) + NEW_LINE;
 var GITIGNORE = '.gitignore';
-var DOT_ENV_FILE = '.env.deploy.production';
+var DOT_ENV_FILE = '.env.deploy.*';
 
 module.exports = {
   normalizeEntityName: function() {},
