@@ -12,6 +12,10 @@ var MESSAGE = NEW_LINE + green('Success!') + NEW_LINE;
 module.exports = {
   description: 'upgrades configuration to match what ember-pagefront@0.8.0 expects',
 
+  beforeInstall: function() {
+    return this.addPackageToProject('ember-cli-deploy', '0.5.0');
+  },
+
   locals: function() {
     var key = '';
 
