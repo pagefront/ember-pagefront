@@ -49,7 +49,7 @@
     "ember-cli-deploy-gzip": "0.1.0",
     "ember-cli-deploy-manifest": "0.1.0",
     "ember-cli-deploy-revision-data": "0.1.0",
-    "ember-cli-deploy-pagefront": "0.3.2"
+    "ember-cli-deploy-pagefront": "0.3.3"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
