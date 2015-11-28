@@ -4,7 +4,9 @@ const FUNCTION = 'function';
 const ACTION = 'pagefrontDidRelease';
 
 function hasAction(route) {
-  return Ember.typeOf(route.actions[ACTION]) === FUNCTION;
+  const actions = route.actions || route._actions;
+
+  return actions && Ember.typeOf(actions[ACTION]) === FUNCTION;
 }
 
 function isEnabled(container) {
