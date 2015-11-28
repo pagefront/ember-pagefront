@@ -46,8 +46,8 @@
     "chalk": "^1.1.1",
     "ember-cli-deploy-build": "0.1.0",
     "ember-cli-deploy-display-revisions": "0.1.0",
-    "ember-cli-deploy-gzip": "pagefront/ember-cli-deploy-gzip#3559306463e77ea78809cdd1bfd10697303eddb0",
-    "ember-cli-deploy-manifest": "pagefront/ember-cli-deploy-manifest#9768ca981b5aa7ac4a1878fcd2e824ec7507546d",
+    "ember-cli-deploy-gzip": "pagefront/ember-cli-deploy-gzip#9d6c78e1b1f0bde1ec8750960f19d66427fdbe12",
+    "ember-cli-deploy-manifest": "pagefront/ember-cli-deploy-manifest#85a06b9bd2461f4ef8145359fba759b475eb0da0",
     "ember-cli-deploy-revision-data": "0.1.0",
     "ember-cli-deploy-pagefront": "0.3.4"
   },
