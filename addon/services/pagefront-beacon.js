@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 const HASH_NAME = 'pagefront-hash';
+const ENVIRONMENT_NAME = 'pagefront-environment';
 const APP_NAME = 'pagefront-app';
 const INTERVAL = 20000;
 const HOST = 'https://beacon.pagefronthq.com';
@@ -13,6 +14,7 @@ function fetchMeta(name) {
 
 export default Ember.Service.extend({
   app: fetchMeta(APP_NAME),
+  environment: fetchMeta(ENVIRONMENT_NAME),
   currentHash: fetchMeta(HASH_NAME),
   target: null,
 
@@ -23,7 +25,9 @@ export default Ember.Service.extend({
   }),
 
   check() {
-    const url = [HOST, PATH, this.app].join('/');
+    const base = [HOST, PATH, this.app].join('/');
+    const environment = this.environment;
+    const url = environment ? `${base}?environment=${environment}` : base;
 
     Ember.$.getJSON(url, Ember.run.bind(this, this.handle));
   },
