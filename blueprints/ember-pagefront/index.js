@@ -18,7 +18,7 @@ module.exports = {
   },
 
   afterInstall: function() {
-    appendFileSync(GITIGNORE, NEW_LINE + DOT_ENV_FILE);
+    appendFileSync(GITIGNORE, NEW_LINE + DOT_ENV_FILE + NEW_LINE);
     this.ui.writeLine(MESSAGE);
   },
 
