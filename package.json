@@ -35,8 +35,7 @@
     "ember-disable-prototype-extensions": "^1.0.0",
     "ember-disable-proxy-controllers": "^1.0.0",
     "ember-export-application-global": "^1.0.3",
-    "ember-try": "0.0.6",
-    "prompt": "^0.2.14"
+    "ember-try": "0.0.6"
   },
   "keywords": [
     "ember-addon",
@@ -50,7 +49,8 @@
     "ember-cli-deploy-gzip": "pagefront/ember-cli-deploy-gzip#9d6c78e1b1f0bde1ec8750960f19d66427fdbe12",
     "ember-cli-deploy-manifest": "pagefront/ember-cli-deploy-manifest#85a06b9bd2461f4ef8145359fba759b475eb0da0",
     "ember-cli-deploy-revision-data": "0.1.0",
-    "ember-cli-deploy-pagefront": "0.4.4"
+    "ember-cli-deploy-pagefront": "0.4.4",
+    "prompt": "^0.2.14"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
