@@ -2,6 +2,8 @@
 
 This README outlines the details of collaborating on this Ember addon.
 
++[![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-pagefront.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
+
 ## Installation
 
 * `git clone` this repository
