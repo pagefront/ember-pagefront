@@ -9,17 +9,15 @@ function hasAction(route) {
   return actions && Ember.typeOf(actions[ACTION]) === FUNCTION;
 }
 
-function isEnabled(container) {
-  const route = container.lookup('route:application');
+function isEnabled(applicationInstance) {
+  const route = applicationInstance.lookup('route:application');
 
   return route && hasAction(route);
 }
 
 export function initialize(applicationInstance) {
-  const container = applicationInstance.container;
-
-  if (isEnabled(container)) {
-    container.lookup('service:pagefront-beacon');
+  if (isEnabled(applicationInstance)) {
+    applicationInstance.lookup('service:pagefront-beacon');
   }
 }
 
