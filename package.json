@@ -48,7 +48,7 @@
     "ember-cli-deploy-display-revisions": "0.1.0",
     "ember-cli-deploy-gzip": "pagefront/ember-cli-deploy-gzip#d0cbd7c43c4f1c963663912e688fdbcb9f26da88",
     "ember-cli-deploy-manifest": "pagefront/ember-cli-deploy-manifest#1181991a23ff1548a8fd588e3f8787e13562ed18",
-    "ember-cli-deploy-pagefront": "0.4.5",
+    "ember-cli-deploy-pagefront": "0.5.5",
     "ember-cli-deploy-revision-data": "0.1.0",
     "open": "0.0.5",
     "prompt": "^0.2.14"
