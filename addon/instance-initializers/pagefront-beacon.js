@@ -4,7 +4,7 @@ const FUNCTION = 'function';
 const ACTION = 'pagefrontDidRelease';
 
 function isFunction(object) {
-  Ember.typeOf(object) === FUNCTION;
+  return Ember.typeOf(object) === FUNCTION;
 }
 
 function lookup(applicationInstance, name) {
